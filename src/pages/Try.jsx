@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 
 const Try = () => {
   return (
@@ -9,9 +10,11 @@ const Try = () => {
           Experience the power of CloudFlow with our free trial. No credit card required.
         </p>
         <div className="max-w-md mx-auto">
-          <Button className="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-full">
-            Start Your Free Trial
-          </Button>
+          <Link to="/free-trial">
+            <Button className="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-full">
+              Start Your Free Trial
+            </Button>
+          </Link>
         </div>
       </div>
     </div>
