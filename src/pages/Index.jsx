@@ -7,7 +7,7 @@ const Index = () => {
     <div className="min-h-screen bg-gradient-to-b from-blue-100 to-white">
       <div className="container mx-auto px-4 py-16">
         <header className="text-center mb-16">
-          <h1 className="text-5xl font-bold text-blue-900 mb-4">CloudFlow</h1>
+          <h1 className="text-5xl font-bold text-blue-900 mb-4">CloudFlow: Because Paperwork is So Last Century</h1>
           <p className="text-xl text-blue-700">Streamline Your Workflow with Our SaaS Solution</p>
         </header>
         
