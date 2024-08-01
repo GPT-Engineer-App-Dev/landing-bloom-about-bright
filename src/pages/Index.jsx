@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const Index = () => {
   return (
@@ -25,9 +26,11 @@ const Index = () => {
           
           <section className="text-center">
             <h2 className="text-3xl font-semibold text-blue-800 mb-6">Ready to Get Started?</h2>
-            <Button className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-6 rounded-full">
-              Try CloudFlow Free <ArrowRight className="ml-2 h-4 w-4" />
-            </Button>
+            <Link to="/try">
+              <Button className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-6 rounded-full">
+                Try CloudFlow Free <ArrowRight className="ml-2 h-4 w-4" />
+              </Button>
+            </Link>
           </section>
         </main>
       </div>
