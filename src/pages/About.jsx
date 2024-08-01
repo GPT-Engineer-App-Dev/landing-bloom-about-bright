@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div className="min-h-screen bg-gradient-to-b from-blue-50 to-white">
       <div className="container mx-auto px-4 py-16">
-        <h1 className="text-4xl font-bold text-blue-900 mb-8 text-center">About Cloudflow</h1>
+        <h1 className="text-4xl font-bold text-blue-900 mb-8 text-center">About CloudFlow</h1>
         
         <div className="grid md:grid-cols-2 gap-12">
           <div>
